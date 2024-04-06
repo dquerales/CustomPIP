@@ -26,5 +26,5 @@ def read_dataframe(dataframe: pd.DataFrame):
 
 def add_applicant_ids(dataframe: pd.DataFrame):
     new_dataframe = dataframe.copy()
-    new_dataframe['applicant_id'] = range(0, 1, len(new_dataframe))
+    new_dataframe['applicant_id'] = range(0, len(new_dataframe))
     return(new_dataframe)
