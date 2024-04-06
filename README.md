@@ -3,8 +3,14 @@
 *This is an example about how to publish a python package using Github*
 
 ## Installation
+
+1. To install main version:
 ```
 !pip install git+https://github.com/dquerales/CustomPIP.git
+```
+2. To install specific versions using tags or branches
+```
+!pip install git+https://github.com/dquerales/CustomPIP.git@v0.1.0
 ```
 
 ### Usage
@@ -12,7 +18,6 @@
 ```
 from pyexample.utils import read_dataframe
 ```
-
 ```
 import pandas as pd
 df = pd.DataFrame()
