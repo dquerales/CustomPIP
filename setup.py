@@ -9,6 +9,6 @@ setup(
     author_email="dquerales@gmail.com",
     packages=["pyexample"],
     install_requires=[
-        "pandas>=1.5.3",
+        "pandas>=2.0.3",
     ],
 )
