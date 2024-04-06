@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="pyexample",
-    version="0.1.0",
+    version="0.1.1",
     description="A example Python package",
     url="https://github.com/dquerales/CustomPIP",
     author="Daniel Querales",

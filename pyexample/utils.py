@@ -23,3 +23,8 @@ def read_dataframe(dataframe: pd.DataFrame):
     """
     new_dataframe = dataframe.copy()
     return new_dataframe
+
+def add_applicant_ids(dataframe: pd.DataFrame):
+    new_dataframe = dataframe.copy()
+    new_dataframe['applicant_id'] = range(0, 1, len(new_dataframe))
+    return(new_dataframe)
